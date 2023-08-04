@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/controls.css">
+    <script src="js/main.js" defer></script>
+
+</head>
+<body>
+
+    <!-- Reproductor -->
+    <main class="player">
+        <video src="video/armadura.mp4" poster="poster/poster.jpg" class="video"></video>
+        <!-- Controles -->
+        <nav class="controls">
+            <button class="button play">
+                <i class="fas fa-play"></i> 
+            </button>
+            <button class="stop">
+                <i class="fas fa-stop"></i>
+            </button>
+            <input type="range" class="progress">
+            <small class="timestamp">
+                00:00
+            </small>
+        </nav>
+    </main>
+    
+</body>
+</html>
