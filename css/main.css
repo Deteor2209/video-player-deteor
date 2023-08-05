@@ -6,4 +6,7 @@ html, body {
 html {
     font-family: sans-serif;
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
